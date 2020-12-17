@@ -1,0 +1,296 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<script>
+    var myVar;
+
+    function myFunction() {
+        myVar = setTimeout(showPage, 1500);
+    }
+
+    function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("outerBox").style.display = "block";
+    }
+</script>
+
+<body onload="myFunction()">
+    <div id="loader"><img src="logo.png"></div>
+    <div class="row">
+        <div class=" outerBox  " id="outerBox">
+
+            <div class="layout">
+
+                <div class="icon-bar" id="margin">
+                    <a href="#"><i class="fa fa-home" id="top"></i></a>
+                    <a href="#"><img src="home.png"
+                            style="width: .5cm;height: .5cm;border-radius: 2px;background: #dddde5;"></a>
+                    <a href="#"><i class="fa fa-search "
+                            style="color: white;padding:2px;border-style:inset;border-color:#5353c2;"></i></a>
+                    <a href="#"><i class="fa fa-bell "
+                            style="color: white;padding:2px;border-style:inset;border-color:#5353c2;"></i></a>
+                    <div><a href="#"><i class="fa fa-cog"
+                                style="color: white;padding:2px;border-style:inset;border-color:#5353c2;"></i></a>
+                    </div>
+                    <a href="#"><i class="fa fa-globe"
+                            style="color: white;padding:62x;border-style:inset;border-color:#5353c2;"></i></a>
+                    <img src="face1.jpg" class="pic" style="margin-top: 3.2cm;margin-left: .2cm;">
+
+
+                </div>
+                <div class="secondBox" style="background-color:#EFF7FF; ">
+                    <div class="row margin">
+                        <div class="col-8 hello">
+                            <div class="col-12 mike">Hello, <b>Mike Frolen!</b></div>
+                            <div class="row nav">
+                                <div class="col-3 grey1">Living room</div>
+                                <div class="col-2 grey">Bedroom</div>
+                                <div class="col-2 kitchen ">Kitchen</b></div>
+                                <div class="col-2 grey">Hall</div>
+                                <div class="col-2 size">
+                                    <i class="fa fa-circle" aria-hidden="true" style="font-size:4px;"></i>
+                                    <i class="fa fa-circle" aria-hidden="true" style="font-size:4px;"></i>
+                                    <i class="fa fa-circle" aria-hidden="true" style="font-size:4px;"></i>
+
+                                </div>
+                            </div>
+                            <div class="row color1">
+                                <div class="col-2 yellow">
+                                    <div class="row">
+                                        <i class="fa fa-lightbulb-o bulb" style="color: white;" aria-hidden="true"></i>
+                                        <label class="switch1">
+                                            <input type="checkbox">
+                                            <span class="slider1 round"></span>
+
+                                        </label>
+                                    </div>
+                                    <div class="light">
+                                        <h6>Light</h6>
+                                    </div>
+                                </div>
+                                <div class="col-2 blue">
+                                    <div class="row">
+                                        <i class="fa fa-bookmark fa-xs bulb" style="color: white;"
+                                            aria-hidden="true"></i>
+                                        <label class="switch">
+                                            <input type="checkbox">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                    <div class="light">
+                                        <h6>Curtains</h6>
+                                    </div>
+                                </div>
+                                <div class="col-2 blue">
+                                    <div class="row">
+                                        <i class="fa fa-tint bulb" style="color: white;" aria-hidden="true"></i>
+                                        <label class="switch">
+                                            <input type="checkbox">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                    <div class="light">
+                                        <h6>Coffee</h6>
+                                    </div>
+                                </div>
+                                <div class="col-2 blue">
+                                    <div class="row">
+                                        <i class="fa fa-bolt fa-xs bulb" style="color: white;" aria-hidden="true"></i>
+                                        <label class="switch">
+                                            <input type="checkbox">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                    <div class="light">
+                                        <h6>Air</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row schedule">
+                                <div class="col-6">
+                                    <h5 style="margin-left: .6cm;"><b>Schedule</b></h5>
+                                    <div class="row">
+                                        <div class="col-3 kitchen" style="margin-left: .6cm;font-size: 12px;">Week</div>
+                                        <div class="col-3" style="color: grey;font-size: 12px;">Month</div>
+                                        <div class="col-3" style="color: grey;font-size: 12px;">Year</div>
+                                    </div>
+                                    <img src="grapg.png" class="image">
+                                </div>
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5><b>My Devices</b></h5>
+                                        </div>
+                                        <div class="col-3">
+                                            <i class="fa fa-circle" aria-hidden="true"
+                                                style="font-size:4px;color:grey;"></i>
+                                            <i class="fa fa-circle" aria-hidden="true"
+                                                style="font-size:4px;color:grey;"></i>
+                                            <i class="fa fa-circle" aria-hidden="true"
+                                                style="font-size:4px;color:grey;"></i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-5" style="color: grey;font-size: 12px;">Coffee Machine</div>
+                                        <div class="col-2 kitchen" style="font-size: 12px;">Light</div>
+                                        <div class="col-3" style="color: grey;font-size: 12px;">Refrigerator</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="lamp.jpg" class="lamp">
+                                            <div class="row">
+                                                <div class="col-7" style="font-size: 14px;margin-top: .3cm;">
+                                                    Lamp1
+                                                    <div class="row">
+                                                        <div class="col-1" style="font-size: 10px;">
+                                                            From 16.00
+                                                        </div>
+                                                        <div class="col-3" style="font-size: 10px;">
+                                                            To 21.00
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-3">
+                                                    <div class="toggle-switch-container">
+                                                        <div class="toggle-switch switch-vertical">
+                                                            <input id="toggle-a" type="radio" name="switch"
+                                                                checked="checked" />
+                                                            <label for="toggle-a"></label>
+                                                            <input id="toggle-b" type="radio" name="switch" />
+                                                            <label for="toggle-b"></label>
+                                                            <span class="toggle-outside">
+                                                                <span class="toggle-inside"></span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="bulb.jpg" class="lamp2">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3 temp ">
+                            <div class="mike1">
+                                <b>Temperature</b>
+                            </div>
+                            <div class="degree">
+                                °C
+                            </div>
+                            <div class="outer circle shapeborder">
+
+                                <div class="inner circle shapeborder">
+                                    <div class='arc'></div>
+                                    <div class="twentyFour">24°</div>
+                                    <div class="normal">Normal</div>
+                                </div>
+                                <div class="  normal1" style="vertical-align: center">Normal temperature for kitchen
+                                </div>
+                                <div class="  cel" style="vertical-align: center">
+                                    20-26 °C</div>
+                            </div>
+                            <div class="bottom">
+                                <div class="row bottom">
+                                    <div class="col-12 white">
+                                        History
+                                    </div>
+                                </div>
+                                <div class="row bottom1">
+                                    <div class="col-2">
+                                        <img src="face.jpg" class="pic">
+                                    </div>
+                                    <div class="col-4 small1 ">Figeo Stone</div>
+                                    <div class="col-4">
+                                        <li style="color:greenyellow; font-size: 10px;margin-top: .2cm;">Coffee</li>
+                                    </div>
+                                    <div class="col-1" style="color:white; font-size: 10px;margin-top: .2cm;">16:30
+                                    </div>
+                                </div>
+                                <div class="row bottom1">
+                                    <div class="col-2">
+                                        <img src="face.jpg" class="pic">
+                                    </div>
+                                    <div class="col-4 small1">Figeo Stone</div>
+                                    <div class="col-4">
+                                        <li style="color:greenyellow; font-size: 10px;margin-top: .2cm;">Air</li>
+                                    </div>
+                                    <div class="col-1" style="color:white; font-size: 10px;margin-top: .2cm;">10:56
+                                    </div>
+                                </div>
+                                <div class="row bottom1">
+                                    <div class="col-2">
+                                        <img src="face1.jpg" class="pic">
+                                    </div>
+                                    <div class="col-4 small1">Mike Frolen</div>
+                                    <div class="col-4">
+                                        <li style="color:red; font-size: 10px;margin-top: .2cm;">Curtains</li>
+                                    </div>
+                                    <div class="col-1" style="color:white; font-size: 10px;margin-top: .2cm;">11:23
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1" style="margin-left: .9cm;margin-top: .9cm;"><i class="fa fa-backward"
+                                    aria-hidden="true" style="color: grey;"></i></div>
+                            <div class="col-1" style="margin-top: .9cm;"><i class="fa fa-pause" style="color: grey;"
+                                    aria-hidden="true"></i>
+                            </div>
+                            <div class="col-1" style="margin-top: .9cm;"><i class="fa fa-forward" style="color: grey;"
+                                    aria-hidden="true"></i>
+                            </div>
+                            <div class="col-2">
+
+                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange"
+                                    style="margin-top: 1.1cm;margin-left:.2cm;height:.1cm;width:2cm;">
+
+                                <div class="col-2" style="margin-top: .7cm;margin-left: 1.9cm;"><img src="k.png"
+                                        style="border-radius: 50%;height: 1cm;width: 1cm;"></div>
+
+
+
+                            </div>
+                            <div class="col-4" style="margin-left: 2cm;margin-top: .7cm;">
+                                <div class="row"><b>Hands on</b></div>
+
+                                <div class="row" style="font-size: 9px;text-align: center;color: grey;">Music is life
+                                </div>
+                            </div>
+
+                        </div>
+                        <img src="music.png" style="width: 5cm;height: .8cm;margin-top: .9cm;margin-right: 1cm;">
+                        <button type="button" class="btn btn-warning "
+                            style="border-radius: 40px;text-align: center;color:white;height:1cm;width: 2.1cm;margin-top: .5cm;  margin-right: .5cm;">Morning</button>
+                        <button type="button" class="btn btn-danger "
+                            style="border-radius: 40px;height:1cm;width: 2cm;margin-top: .5cm; ;margin-right: .5cm;">Evening</button>
+                        <button type="button" class="btn btn-primary "
+                            style="border-radius: 40px;height:1cm;width: 2cm;margin-top: .5cm; ;margin-right: .5cm;">Night</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
